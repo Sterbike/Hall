@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(212, 255, 255);
+}
+
+.project-container{
+    background-color: rgb(219, 133, 27);
+    width: min-content;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.project-container a {
+    text-decoration: none;
+    background-color: rgb(219, 133, 27);
+}
+
+.project-container a img{
+    width: 10rem;
+}
+
+.project-container a p {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
