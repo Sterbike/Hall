@@ -3,13 +3,11 @@ body{
 }
 
 .project-container{
-    background-color: rgb(219, 133, 27);
-    width: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1rem;
     padding-bottom: 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    border-radius: 30px;
+    
 }
 
 h1{
@@ -20,14 +18,24 @@ h1{
 
 .project-container a {
     text-decoration: none;
+}
+
+.project{
+    width: 12vw;
+    height: 38vh;
+    border-radius: 30px;
+    text-align: center;
+    padding: 1vw;
     background-color: rgb(219, 133, 27);
+    margin: auto;
 }
 
-.project-container a img{
-    width: 10rem;
+.project a img{
+    width: 10vw;
+    height: 15vh;
 }
 
-.project-container a p {
+.project-container a h2 {
     border-radius: 10px;
     background-color: black;
     color: white;
@@ -35,5 +43,4 @@ h1{
     margin: auto;
     text-align: center;
     font-size: 1.5rem;
-
 }
