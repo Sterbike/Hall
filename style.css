@@ -28,6 +28,7 @@ h1{
     padding: 1vw;
     background-color: rgb(219, 133, 27);
     margin: auto;
+    margin-top: 0;
 }
 
 .project a img{
