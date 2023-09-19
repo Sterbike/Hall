@@ -20,8 +20,13 @@ h1{
     text-decoration: none;
 }
 
+.project-container a:hover {
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
 .project{
-    width: 12vw;
+    min-width: 20vw;
     height: max-content;
     border-radius: 30px;
     text-align: center;
@@ -32,7 +37,7 @@ h1{
 }
 
 .project a img{
-    width: 10vw;
+    width: 70%;
     height: 15vh;
 }
 
@@ -45,3 +50,21 @@ h1{
     text-align: center;
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 900px) {
+    .project-container{
+        grid-template-columns: 1fr 1fr;     
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    .project-container{
+        grid-template-columns: 1fr;     
+    }
+
+    .project{
+        margin-bottom: 3vh;
+        width: 40vw;
+    }
+
+  }
