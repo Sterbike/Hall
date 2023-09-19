@@ -22,7 +22,7 @@ h1{
 
 .project{
     width: 12vw;
-    height: 38vh;
+    height: max-content;
     border-radius: 30px;
     text-align: center;
     padding: 1vw;
