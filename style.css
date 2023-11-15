@@ -70,7 +70,7 @@ h1{
     color: green;
 }
 
-#download:hover{
+#githublink:hover{
     color: rgb(8, 181, 107);
     text-decoration: underline;
 }
